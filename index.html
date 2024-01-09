@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guion Chat Beta</title>
+    <!--FONT RALEWAY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="main.js"></script>
+   <!--SALUDOS -->
+    <h1>Saludos</h1>
+    
+    <div class="container-1">
+        
+            <div class="form-group">
+                <input type="radio" name="saludo" id="saludo-1">
+                <label for="saludo-1"><span class="radio-buttom"></span>¡Hola Bienvenido a nuestro chat de WhatsApp Bancoomeva! Mi nombre es ____ y me encargaré de resolver tu solicitud, recuerda permanecer en el chat para agilizar la atención.</label>
+            </div>
+            <div class="form-group">
+                <input type="radio" name="saludo" id="saludo-2" value="">
+                <label for="saludo-2"><span class="radio-buttom"></span>¡Hola! buen día, Bienvenido(a) a Bancoomeva, mi nombre es _________ y estoy encantado de ser tu asesor ¿Cómo puedo ayudarte el día de hoy?</label>
+            </div>
+            <div class="buttons">
+                <a href="#" class="btn" onclick="verificarRB1()">copiar</a>
+            </div>
+        
+    </div>
+
+    <!--PREGUNTAS -->
+    <h1>Preguntas</h1>
+
+    <div class="container-1">
+        <div class="form-group">
+            <input type="radio" name="preguntas" id="pregunta-1">
+            <label for="pregunta-1"><span class="radio-buttom"></span>¿Qué ocupación tienes actualmente? (Empleado(a), Independiente, Pensionado)</label>
+        </div>
+        <div class="form-group">
+            <input type="radio" name="preguntas" id="pregunta-2">
+            <label for="pregunta-2"><span class="radio-buttom"></span>¿Tienes alguna otra duda o consulta en la cual pueda asesorarte?</label>
+        </div>
+        <div class="buttons">
+            <a href="#" class="btn" onclick="verificarRB2()">copiar</a>
+        </div>
+    </div>
+
+    <!--EN ESPERA -->
+    <h1>En Espera</h1>
+
+    <div class="container-1">
+        <div class="form-group">
+            <input type="radio" name="preguntas" id="espera-1">
+            <label for="espera-1"><span class="radio-buttom"></span>Apreciado cliente no he recibido ninguna respuesta hasta el momento, ¿Continuas en línea?</label>
+        </div>
+        <div class="form-group">
+            <input type="radio" name="preguntas" id="espera-2">
+            <label for="espera-2"><span class="radio-buttom"></span>Apreciado cliente sigo sin recibir ninguna respuesta hasta el momento, por motivos de inactividad se dará por finalizado el chat, espero que tenga un excelente día, hasta pronto.</label>
+        </div>
+        <div class="buttons">
+            <a href="#" class="btn" onclick="verificarRB3()">copiar</a>
+        </div>
+    </div>
+
+    <!--DESPEDIDA-->
+    <h1>Despedida</h1>
+
+    <div class="container-1">
+        <div class="form-group">
+            <input type="radio" name="preguntas" id="despedida-1">
+            <label for="despedida-1"><span class="radio-buttom"></span>Para mí ha sido un gusto poder ayudarte el día de hoy, espero que tengas un excelente día, hasta pronto.</label>
+        </div>
+        <div class="buttons">
+            <a href="#" class="btn" onclick="verificarRB4()">copiar</a>
+        </div>
+    </div>
+    <h1></h1>
+    <legend>Version de prueba </legend>
+    <legend>Creado por: Miguel Arroyave </legend>
+    
+</body>
+</html>
